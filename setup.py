@@ -91,6 +91,7 @@ setup(
             'check_keystone-token=openstacknagios.keystone.Token:main',
             'check_ceilometer-statistics=openstacknagios.ceilometer.Statistics:main',
             'check_rally-results=openstacknagios.rally.Results:main',
+            'check_tempest-results=openstacknagios.tempest.Results:main',
         ],
     },
 )
